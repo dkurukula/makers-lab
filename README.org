@@ -1,0 +1,6 @@
+* makers-lab
+  Experimentation space for maker projects
+
+* Projects
+  + dust sensor
+

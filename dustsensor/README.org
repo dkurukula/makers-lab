@@ -1,0 +1,3 @@
+This uses an arduino with PP42 dust sensor to measure particulate density (particles >1microns)
+
+=dust_sensor.py= is used used to log serial output when connected via usb to a Windows computer
