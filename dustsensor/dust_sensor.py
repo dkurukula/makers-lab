@@ -78,9 +78,8 @@ def save_val(filename, val):
 if __name__ == '__main__':
     COM = input('Enter COM port integer: ')
     while True:
-        if collect_now(COM):
-            f = collect_now(COM)
-        else:
+        f = collect_now(COM)
+        if not(f):
             f = _PS_read(COM)
         val = f'{current_time()}, {str(f)}\n'
         print(val)

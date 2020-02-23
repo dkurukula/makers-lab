@@ -8,7 +8,7 @@
 int pin = 8;
 unsigned long duration;
 unsigned long starttime;
-unsigned long sampletime_ms = 30000; //sampe 30s ;
+unsigned long sampletime_ms = 30000; //sample 30s ;
 unsigned long lowpulseoccupancy = 0;
 float ratio = 0;
 float concentration = 0;
